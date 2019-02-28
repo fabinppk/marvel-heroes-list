@@ -1,12 +1,27 @@
 @import "./_variaveis";
+@import "./_buttons";
 @import "./_reset";
 
 #root {
   text-align: center;
+  overflow: hidden;
 
   .page-limiter {
     width: 100%;
     max-width: $limiter-site;
     margin: auto;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 62px;
+
+    &.small {
+      font-size: 20px;
+      color: #9B9B9B;
+    }
   }
 }
