@@ -1,0 +1,60 @@
+@import "../../assets/stylesheets/_variaveis";
+
+#newsletter {
+  background: black;
+  display: flex;
+  justify-content: space-around;
+
+  .block-chamada {
+    background: #ed1b24;
+    color: white;
+    font-size: 62px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 410px;
+    line-height: 75px;
+    text-align: left;
+    padding: 60px;
+    transform: translateY(-110px);
+  }
+
+  .block-cadastro {
+
+    p {
+      color: $color-font-primary;
+      text-align: left;
+      width: 50%;
+      font-weight: bold;
+      margin: 50px 0;
+
+      span{
+        color: $color-primary;
+      }
+    }
+
+    .form {
+      display: flex;
+      flex-wrap: wrap;
+
+      label {
+        color: $color-font-primary;
+        width: 100%;
+        font-size: 13px;
+        text-align: left;
+        padding: 5px 0;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      .input {
+        color: black;
+        font-size: 12px;
+        flex: 4;
+      }
+
+      .button {
+        padding: 20px 30px;
+      }
+    }
+  }
+}

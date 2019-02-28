@@ -7,6 +7,7 @@ import Banner from './components/Banner/index';
 import TopHeroes from './components/TopHeroes/index';
 import Personagens from './components/Personagens/index';
 import CartaoMarvel from './components/CartaoMarvel/index';
+import Newsletter from './components/Newsletter/index';
 
 class App extends Component {
 
@@ -18,6 +19,7 @@ class App extends Component {
         <TopHeroes/>
         <Personagens/>
         <CartaoMarvel/>
+        <Newsletter/>
       </div>
     );
   }
