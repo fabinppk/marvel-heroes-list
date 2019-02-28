@@ -3,12 +3,16 @@ import './assets/stylesheets/style.scss';
 
 /* components */
 import Header from './components/Header/index';
+import Banner from './components/Banner/index';
 
 class App extends Component {
 
   render() {
     return (
-      <Header/>
+      <div>
+        <Header/>
+        <Banner/>
+      </div>
     );
   }
 }

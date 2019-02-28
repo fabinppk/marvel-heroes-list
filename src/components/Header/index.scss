@@ -1,6 +1,7 @@
+@import "../../assets/stylesheets/_variaveis";
+
 nav {
   display: flex;
-  background: black;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
@@ -13,7 +14,7 @@ nav {
     display: flex;
 
     li {
-      color: white;
+      color: $color-font-primary;
       line-height: 70px;
       margin-right: 20px;
       font-size: 14px;

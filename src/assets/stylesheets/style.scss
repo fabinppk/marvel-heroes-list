@@ -3,4 +3,10 @@
 
 .App {
   text-align: center;
+
+  .page-limiter {
+    width: 100%;
+    max-width: $limiter-site;
+    margin: auto;
+  }
 }
