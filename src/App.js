@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import './stylesheets/style.scss';
+import './assets/stylesheets/style.scss';
+
+/* components */
+import Header from './components/Header/index';
 
 class App extends Component {
 
   render() {
     return (
-      <h1>Hello World</h1>
+      <Header/>
     );
   }
 }
