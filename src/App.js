@@ -8,6 +8,7 @@ import TopHeroes from './components/TopHeroes/index';
 import Personagens from './components/Personagens/index';
 import CartaoMarvel from './components/CartaoMarvel/index';
 import Newsletter from './components/Newsletter/index';
+import Rodape from './components/Rodape/index';
 
 class App extends Component {
 
@@ -20,6 +21,7 @@ class App extends Component {
         <Personagens/>
         <CartaoMarvel/>
         <Newsletter/>
+        <Rodape/>
       </div>
     );
   }

@@ -12,6 +12,7 @@
   .block-image {
     height: 190px;
     position: relative;
+    overflow: hidden;
 
     &::before{
       content: '';
@@ -26,7 +27,7 @@
 
     img {
       height: 100%;
-      max-width: 100%;
+      max-width: initial;
       position: absolute;
       top: 50%;
       left: 50%;

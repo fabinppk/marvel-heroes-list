@@ -1,0 +1,61 @@
+@import "../../assets/stylesheets/_variaveis";
+
+footer {
+  background-color: $background-color-rodape;
+
+  .block-rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+
+    .logo-mini {
+      width: 44px;
+      height: 68px;
+    }
+
+    ul {
+
+      li {
+        font-family: 'Open Sans', sans-serif;
+        color: $color-font-primary;
+        text-align: left;
+        font-size: 14px;
+        color: #9B9B9B;
+        padding: 2px 0;
+      }
+    }
+
+    .social-icon {
+      width: 25px;
+      height: 25px;
+      margin-right: 20px;
+    }
+
+    .block-last-blog {
+
+      span {
+        color: #9B9B9B;
+        font-size: 14px;
+        text-decoration: underline;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      .last-blog {
+        display: flex;
+        align-items: center;
+
+        img {
+          margin-right: 10px;
+          width: 45px;
+          height: 45px;
+        }
+
+        p {
+          color: $color-font-primary;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

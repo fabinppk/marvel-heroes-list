@@ -1,0 +1,13 @@
+@import "../../../assets/stylesheets/_variaveis";
+
+.block-secao-rodape {
+  max-width: 30%;
+
+  .titulo {
+    text-align: left;
+    color: $color-font-primary;
+    font-size: 19px;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+}
