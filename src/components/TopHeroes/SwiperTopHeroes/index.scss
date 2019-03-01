@@ -53,10 +53,11 @@
           color: $color-font-primary;
           position: absolute;
           margin: 0;
-          font-size: 18px;
+          font-size: 20px;
           bottom: 20px;
           width: 100%;
           text-align: center;
+          z-index: 1;
         }
       }
     }
