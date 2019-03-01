@@ -34,6 +34,10 @@
         z-index: 1;
       }
 
+      &::after {
+        @include black-opacity;
+      }
+
       &.hero {
 
         img {
@@ -67,43 +71,36 @@
   background-color: black;
   top: 1px;
   cursor: pointer;
+  position: absolute;
+  background-image: url(../../../assets/images/arrow-white.png);
+  background-repeat: no-repeat;
+  background-position: 2px 5px;
+
+  &:hover,
+  &:active {
+    border: 3px solid $color-primary;
+  }
 }
 
 .swiper-button-custon-next {
   @include button-custon;
-  position: absolute;
   right: 0;
-  background-image: url(../../../assets/images/arrow-white.png);
-  background-repeat: no-repeat;
-  background-position: 2px 5px;
   transform: rotate(270deg);
 
   &:focus,
   &:visited {
     border: 3px solid white;
   }
-
-  &:active {
-    border: 3px solid $color-primary;
-  }
 }
 
 .swiper-button-custon-prev {
   @include button-custon;
-  position: absolute;
   right: 50px;
-  background-image: url(../../../assets/images/arrow-white.png);
-  background-repeat: no-repeat;
-  background-position: 2px 5px;
   transform: rotate(90deg);
 
   &:focus,
   &:visited {
     border: 3px solid white;
-  }
-
-  &:active {
-    border: 3px solid $color-primary;
   }
 }
 

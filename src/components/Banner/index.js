@@ -8,7 +8,9 @@ class Banner extends Component {
   render() {
     return (
       <section id="block-banner">
-        <img src={imageBanner} alt="Marvel Banner"/>
+        <div className="block-image">
+          <img src={imageBanner} alt="Marvel Banner"/>
+        </div>
         <div className="page-limiter">
           <h1 className="titulo">CONHEÇA NOSSOS PERSONAGENS</h1>
         </div>

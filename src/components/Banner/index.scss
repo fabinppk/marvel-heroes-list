@@ -4,8 +4,16 @@
   position: relative;
   padding-bottom: 75px;
 
-  img {
-    width: 100%;
+  .block-image {
+    position: relative;
+
+    &::before {
+      @include black-opacity;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 
   .titulo {
