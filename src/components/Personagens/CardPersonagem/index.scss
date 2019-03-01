@@ -37,13 +37,16 @@
 
   .block-name{
     background-color: $background-color-site;
+    display: flex;
+    align-items: center;
+    min-height: 60px;
 
     .name{
       text-align: left;
       color: $color-font-primary;
       font-size: 14px;
       margin: 0;
-      padding: 20px;
+      padding: 0 20px;
     }
   }
 }
