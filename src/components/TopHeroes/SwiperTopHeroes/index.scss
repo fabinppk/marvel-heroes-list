@@ -63,6 +63,7 @@
   border: 3px solid white;
   height: 40px;
   width: 40px;
+  background-size: 30px;
   background-color: black;
   top: 1px;
   cursor: pointer;
@@ -74,7 +75,6 @@
   right: 0;
   background-image: url(../../../assets/images/arrow-white.png);
   background-repeat: no-repeat;
-  background-size: 30px;
   background-position: 2px 5px;
   transform: rotate(270deg);
 
@@ -94,7 +94,6 @@
   right: 50px;
   background-image: url(../../../assets/images/arrow-white.png);
   background-repeat: no-repeat;
-  background-size: 30px;
   background-position: 2px 5px;
   transform: rotate(90deg);
 
@@ -105,5 +104,40 @@
 
   &:active {
     border: 3px solid $color-primary;
+  }
+}
+
+@media (max-width: $big){
+  .swiper-button-custon-next {
+    right: 20px;
+  }
+
+  .swiper-button-custon-prev {
+    right: 70px;
+  }
+}
+
+@media (max-width: $large){
+
+}
+
+@media (max-width: $medium){
+
+}
+
+@media (max-width: $small){
+  @mixin button-custon {
+    height: 30px;
+    width: 30px;
+    background-size: 20px;
+  }
+
+  .swiper-button-custon-prev,
+  .swiper-button-custon-next {
+    @include button-custon;
+  }
+
+  .swiper-button-custon-prev {
+    right: 60px;
   }
 }

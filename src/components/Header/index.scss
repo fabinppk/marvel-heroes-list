@@ -27,3 +27,36 @@ nav {
     }
   }
 }
+
+@media (max-width: $big){
+
+}
+
+@media (max-width: $large){
+
+}
+
+@media (max-width: $medium){
+  nav {
+
+    img {
+      width: 100px;
+    }
+  }
+}
+
+@media (max-width: $small){
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    ul {
+      width: 100%;
+      justify-content: space-between;
+
+      li {
+        margin-right: 0;
+      }
+    }
+  }
+}

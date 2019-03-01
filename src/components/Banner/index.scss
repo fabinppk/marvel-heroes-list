@@ -18,3 +18,28 @@
     line-height: 1.4;
   }
 }
+
+@media (max-width: $big){
+
+}
+
+@media (max-width: $large){
+  #block-banner {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: $medium){
+  #block-banner {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: $small){
+  #block-banner {
+
+    .titulo {
+      max-width: 70vw;
+    }
+  }
+}

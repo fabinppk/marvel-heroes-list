@@ -25,3 +25,48 @@
     }
   }
 }
+
+@media (max-width: $big){
+  #root {
+
+    .page-limiter {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+  }
+}
+
+@media (max-width: $large){
+  #root {
+
+    h1 {
+      font-size: 75px;
+    }
+
+    h2 {
+      font-size: 50px;
+
+      &.small {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: $medium){
+  #root {
+
+    h1 {
+      font-size: 62px;
+    }
+  }
+}
+
+@media (max-width: $small){
+  #root {
+
+    h1 {
+      font-size: 46px;
+    }
+  }
+}

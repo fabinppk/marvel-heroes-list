@@ -7,6 +7,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 60px 0;
+    flex-wrap: wrap;
 
     .logo-mini {
       width: 44px;
@@ -55,6 +56,32 @@ footer {
           font-family: 'Open Sans', sans-serif;
           font-size: 14px;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: $big){
+
+}
+
+@media (max-width: $large){
+
+}
+
+@media (max-width: $medium){
+
+}
+
+@media (max-width: $small){
+  footer {
+
+    .block-rodape {
+      justify-content: center;
+      padding-top: 50px;
+
+      .logo-mini {
+        display: none;
       }
     }
   }

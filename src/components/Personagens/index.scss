@@ -22,3 +22,24 @@
     height: initial;
   }
 }
+
+@media (max-width: $big){
+
+}
+
+@media (max-width: $large){
+
+}
+
+@media (max-width: $medium){
+
+}
+
+@media (max-width: $small){
+  #block-personagens  {
+
+    .titulo-secao {
+      font-size: 20px;
+    }
+  }
+}

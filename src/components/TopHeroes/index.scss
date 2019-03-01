@@ -14,3 +14,24 @@
     font-size: 28px;
   }
 }
+
+@media (max-width: $big){
+
+}
+
+@media (max-width: $large){
+
+}
+
+@media (max-width: $medium){
+
+}
+
+@media (max-width: $small){
+  #block-top-heroes {
+
+    .titulo-secao {
+      font-size: 20px;
+    }
+  }
+}
