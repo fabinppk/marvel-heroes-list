@@ -14,6 +14,13 @@
 Projeto com intuito de listar pensonagens usando API oficial da Marvel. A página possui layout para Desktop, Tablet grandes, Tablet pequenos, e dispositivos Mobile.
 
 OBS: Houve problemas com o consumo da API por causa de permissão. Eu conseguia fazer o consumo via Postman, porém não fui possível fazer o uso da API de forma online. A API foi consumida de forma offline sendo incorporada as respostas reais no próprio código. __Todos os requisitos de parâmetros, headers, criptografia foram desenvolvidos mesmo não sendo utilizados__.
+
+### Principais Tecnologias
+
+-React
+
+-Sass
+
  
 ## Instalação <a name="instalacao"></a>
 
