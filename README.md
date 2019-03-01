@@ -29,34 +29,22 @@ $ npm start
 ### Mobile
 
 
-![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/smartphoneEdit_header-smartphoneEdit_topHeroes-smartphoneEdit_lista.png)
-
-![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/smartphoneEdit_cartoes-smartphoneEdit_rodape.png)
+![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/screencapture-list-marvel-heroes-herokuapp-2019-03-01-17_52_09.png)
 
 
 ### Tablet Grande
 
 
-![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/tabletLarge_header.png)
-
-![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/tabletLarge_topHeroes.png)
-
-![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/tabletLarge_lista.png)
-
-![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/tabletLarge_newsletter-tabletLarge_rodape.png)
+![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/screencapture-list-marvel-heroes-herokuapp-2019-03-01-17_50_30.png)
 
 
 ### Tablet Pequeno
 
 
-![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/tabletSmall_all.png)
+![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/screencapture-list-marvel-heroes-herokuapp-2019-03-01-17_51_01.png)
 
 
 ### Desktop
 
 
-![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/desktop_header.png)
-
-![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/desktop_topHeroes-desktop_lista.png)
-
-![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/desktop_cartoes-desktop_newsletter-desktop_rodape.png)
+![desktop header](https://github.com/fabinppk/marvel-heroes-list/blob/master/screenshot/screencapture-list-marvel-heroes-herokuapp-2019-03-01-17_47_45.png)
