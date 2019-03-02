@@ -1,4 +1,4 @@
-# Lista de Horóis Marvel - Fabiano Correia
+# Lista de Heróis Marvel - Fabiano Correia
  
 ### Demo - https://list-marvel-heroes.herokuapp.com/
 (Se tiver problema ao abrir, tente recarregar a página mais de uma vez)
